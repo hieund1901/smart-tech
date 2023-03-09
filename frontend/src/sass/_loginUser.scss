@@ -1,0 +1,109 @@
+
+.auth-page-user {
+  width: 100%;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../image/background.png');
+  height: 100vh;
+  background-size: cover;
+
+}
+.page-container{
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+
+}
+
+.Auth-form-title-user {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-style: normal;
+  color: black;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.text-register{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  color: black;
+  font-weight: 500;
+}
+
+
+
+
+.LoginUser_text {
+  margin-top: 0px;
+}
+
+
+.email,
+.password,
+.forgot-Password {
+  margin: 10px 0px;
+}
+
+.button-Login:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-Login:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.otherLogin {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.otherLogin-text {
+  color: black;
+  font-size: 18px;
+}
+
+.otherLogin-text:hover {
+  color: black;
+}
+
+.button-facebook:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-facebook:active {
+    box-shadow: none;
+  transform: translateY(0);
+}
+
+.button-google:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.button-google:active {
+    box-shadow: none;
+  transform: translateY(0);
+}
+
+
+@media (min-width: 768px) {
+  .button-58 {
+    min-width: 170px;
+  }
+}
+
+.otherLogin-icon {
+  text-align: center;
+}

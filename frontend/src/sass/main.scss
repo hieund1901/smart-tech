@@ -1,0 +1,12 @@
+@import './auth-manager';
+@import '_loginUser';
+@import '_registerUser';
+@import '_header';
+@import '_home';
+@import '_footer';
+@import '_productDetail';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

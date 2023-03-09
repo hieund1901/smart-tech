@@ -1,0 +1,33 @@
+.list-group-item {
+  width: 550px;
+}
+
+.register-container{
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8vh;
+
+}
+
+.list-group-text {
+  margin: 10px 0px;
+}
+
+.button-Register:disabled {
+  pointer-events: none;
+}
+
+.button-Register:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-Register:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.text-register{
+  margin-bottom: 15px;
+}

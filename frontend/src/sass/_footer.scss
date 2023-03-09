@@ -1,0 +1,55 @@
+.footer {
+    background:linear-gradient(to top, rgba(248,111,87,0.4), rgba(0,0,0,0) 100px);
+    height: 300px;
+    padding: 0;
+    margin-top: 100px;
+    width: 100%;
+  }
+  ._footer-logo {
+    float: left;
+  }
+  .infoDetail,
+  .spList {
+    margin: 0;
+    padding: 0;
+  }
+  .infoDetail > li {
+    list-style-type: none;
+    text-align: left;
+  }
+  .infoDetail > li > .index {
+    display: inline-block;
+    font-weight: bold;
+  }
+  .infoDetail > li > .index::first-letter {
+    text-transform: uppercase;
+  }
+  .infoDetail > li > .child {
+    margin: 5px;
+  }
+  .spList > li > span {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .spList > li > span::first-letter,
+  .header::first-letter {
+    text-transform: uppercase;
+  }
+  .header {
+    font-weight: bold;
+  }
+  .spList > li,
+  .header {
+    list-style-type: none;
+    text-align: left;
+    margin: 5px;
+  }
+  .spList .phone {
+    color: #007bff;
+    font-weight: bold;
+  }
+  .pay{
+      float: left;
+  }
+  
+  
